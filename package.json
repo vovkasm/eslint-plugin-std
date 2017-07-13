@@ -2,6 +2,9 @@
   "name": "@vovkasm/eslint-plugin-std",
   "version": "0.0.1",
   "description": "ESLint config for standard javascript",
+  "scripts": {
+    "release": "standard-version"
+  },
   "files": [
     "config.js",
     "index.js",
