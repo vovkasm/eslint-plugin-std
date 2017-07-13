@@ -7,6 +7,20 @@
     "index.js",
     "plugins.js"
   ],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Vladimir Timofeev <vovkasm@gmail.com>",
+  "homepage": "https://github.com/vovkasm/eslint-plugin-std",
+  "bugs": {
+    "url": "https://github.com/vovkasm/eslint-plugin-std/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vovkasm/eslint-plugin-std.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint-plugin-import": "^2.6.1",
@@ -18,6 +32,7 @@
     "eslint": ">=3.19.0"
   },
   "devDependencies": {
-    "eslint": "^4.2.0"
+    "eslint": "^4.2.0",
+    "standard-version": "^4.2.0"
   }
 }
